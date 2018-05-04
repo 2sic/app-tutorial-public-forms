@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.30.00" ExportDate="2018-05-04T15:05:18.6206662+02:00">
+  <Header>
+    <App Guid="46d0210d-6bc0-4825-8ebf-06966b8eac2b" />
+    <Language Default="en-US" />
+    <Dimensions />
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="6ffa4682-ced2-48ef-aae7-a527ce94ad28" Name="Partners" Description="" Scope="2SexyContent" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="Name" Type="String" IsTitle="true">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="5e0d2cde-dabb-4600-bede-bc656f849017" KeyNumber="2001">
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="Name" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Logo" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="13c9702b-c64d-4e07-8d7a-024befc9c829" KeyNumber="2002">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="hyperlink-library" Type="String" />
+            <Value Key="Name" Value="Logo" Type="String" />
+            <Value Key="Notes" Value="Upload your logo here - must be a picture" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Hyperlink" AttributeSetName="@Hyperlink" EntityGUID="36dda593-1b08-470d-b08c-5a89013a2833" KeyNumber="2002">
+            <Value Key="Buttons" Value="" Type="String" />
+            <Value Key="DefaultDialog" Value="" Type="String" />
+            <Value Key="FileFilter" Value="*.jpg, *.png, *.gif" Type="String" />
+            <Value Key="Paths" Value="" Type="String" />
+            <Value Key="ServerResourceMapping" Value="" Type="String" />
+            <Value Key="ShowAdam" Value="False" Type="Boolean" />
+            <Value Key="ShowFileManager" Value="False" Type="Boolean" />
+            <Value Key="ShowImageManager" Value="False" Type="Boolean" />
+            <Value Key="ShowPagePicker" Value="False" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@hyperlink-library" AttributeSetName="@hyperlink-library" EntityGUID="5f212dc0-91c1-43ca-85a0-49d8d3c6bef1" KeyNumber="2002">
+            <Value Key="AllowAssetsInRoot" Value="True" Type="Boolean" />
+            <Value Key="FolderDepth" Value="0.0" Type="Number" />
+            <Value Key="MetadataContentTypes" Value="" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="3a7611b1-e568-4ed5-8fce-1fc27847557a" KeyNumber="2002">
+            <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
+            <Value Key="Grant" Value="crud" Type="String" />
+            <Value Key="Identity" Value="" Type="String" />
+            <Value Key="Title" Value="public users can upload images" Type="String" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Description" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="2400ffb4-6fd6-4fa2-b891-d7dcf4b9bd18" KeyNumber="2003">
+            <Value Key="InputType" Value="string-wysiwyg" Type="String" />
+            <Value Key="Name" Value="Description" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Photos" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="b7c229e7-49b3-4403-baad-1e884edcde72" KeyNumber="2004">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="hyperlink-library" Type="String" />
+            <Value Key="Name" Value="Photos of your location" Type="String" />
+            <Value Key="Notes" Value="Just add photos of your offices here" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Hyperlink" AttributeSetName="@Hyperlink" EntityGUID="2602dded-8220-4094-8c1e-1e53637b2332" KeyNumber="2004">
+            <Value Key="Buttons" Value="" Type="String" />
+            <Value Key="DefaultDialog" Value="" Type="String" />
+            <Value Key="FileFilter" Value="*.jpg, *.png, *.gif" Type="String" />
+            <Value Key="Paths" Value="" Type="String" />
+            <Value Key="ServerResourceMapping" Value="" Type="String" />
+            <Value Key="ShowAdam" Value="False" Type="Boolean" />
+            <Value Key="ShowFileManager" Value="False" Type="Boolean" />
+            <Value Key="ShowImageManager" Value="False" Type="Boolean" />
+            <Value Key="ShowPagePicker" Value="False" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@hyperlink-library" AttributeSetName="@hyperlink-library" EntityGUID="31a102b3-b2d6-4132-9232-abf79157f3ec" KeyNumber="2004">
+            <Value Key="AllowAssetsInRoot" Value="True" Type="Boolean" />
+            <Value Key="FolderDepth" Value="0.0" Type="Number" />
+            <Value Key="MetadataContentTypes" Value="" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="7114077f-f4cd-422f-a762-125c6888e287" KeyNumber="2004">
+            <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
+            <Value Key="Grant" Value="crud" Type="String" />
+            <Value Key="Identity" Value="" Type="String" />
+            <Value Key="Title" Value="users can upload photo" Type="String" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="CaseStudies" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="496bf830-4c93-419d-bb79-166eafbb4043" KeyNumber="2005">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="hyperlink-library" Type="String" />
+            <Value Key="Name" Value="Case Studies" Type="String" />
+            <Value Key="Notes" Value="Add your case studies here (pdf only)" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Hyperlink" AttributeSetName="@Hyperlink" EntityGUID="bcaa4328-696d-4c1c-853b-aef51614e5ce" KeyNumber="2005">
+            <Value Key="Buttons" Value="adam" Type="String" />
+            <Value Key="DefaultDialog" Value="" Type="String" />
+            <Value Key="FileFilter" Value="pdf" Type="String" />
+            <Value Key="Paths" Value="" Type="String" />
+            <Value Key="ServerResourceMapping" Value="" Type="String" />
+            <Value Key="ShowAdam" Value="False" Type="Boolean" />
+            <Value Key="ShowFileManager" Value="False" Type="Boolean" />
+            <Value Key="ShowImageManager" Value="False" Type="Boolean" />
+            <Value Key="ShowPagePicker" Value="False" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@hyperlink-library" AttributeSetName="@hyperlink-library" EntityGUID="050013d8-3848-459b-8eaf-3d0f6b0348d1" KeyNumber="2005">
+            <Value Key="AllowAssetsInRoot" Value="True" Type="Boolean" />
+            <Value Key="FolderDepth" Value="0.0" Type="Number" />
+            <Value Key="MetadataContentTypes" Value="" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="f35fc33a-5176-45a1-a10b-6c15682d577e" KeyNumber="2005">
+            <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
+            <Value Key="Grant" Value="crud" Type="String" />
+            <Value Key="Identity" Value="" Type="String" />
+            <Value Key="Title" Value="users can upload case studies" Type="String" />
+          </Entity>
+        </Attribute>
+      </Attributes>
+    </AttributeSet>
+  </AttributeSets>
+  <Entities>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="6a9b44e6-abc9-412d-b221-ea33f6d9b5d7" KeyNumber="119">
+      <Value Key="AllowRazorTemplates" Value="True" Type="Boolean" />
+      <Value Key="AllowTokenTemplates" Value="False" Type="Boolean" />
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="DisplayName" Value="App Tutorial Public Forms" Type="String" />
+      <Value Key="Folder" Value="App Tutorial Public Forms" Type="String" />
+      <Value Key="Hidden" Value="False" Type="Boolean" />
+      <Value Key="OriginalId" Value="46d0210d-6bc0-4825-8ebf-06966b8eac2b" Type="String" />
+      <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
+      <Value Key="RequiredVersion" Value="09.30.00" Type="String" />
+      <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
+      <Value Key="Version" Value="01.00.00" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="836a1d20-4b86-4944-b882-022b61e07236" KeyNumber="119" />
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="d684be29-ebd2-4a6c-8eba-768c503c326a" KeyNumber="119" />
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="6ffa4682-ced2-48ef-aae7-a527ce94ad28" AttributeSetName="Partners" EntityGUID="c3c80034-1f33-4ea5-b068-bc5611137803">
+      <Value Key="CaseStudies" Value="" Type="Hyperlink" />
+      <Value Key="Description" Value="The company that creates 2sxc" Type="String" />
+      <Value Key="Logo" Value="" Type="Hyperlink" />
+      <Value Key="Name" Value="2sic" Type="String" />
+      <Value Key="Photos" Value="" Type="Hyperlink" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="6ffa4682-ced2-48ef-aae7-a527ce94ad28" AttributeSetName="Partners" EntityGUID="33d91836-9360-4279-b658-e33117a83f54">
+      <Value Key="CaseStudies" Value="" Type="Hyperlink" />
+      <Value Key="Description" Value="&lt;p&gt;A pretty cool DNN extension, used for&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;content management&lt;/li&gt;&#xA;&lt;li&gt;module development&lt;/li&gt;&#xA;&lt;li&gt;APIs&lt;/li&gt;&#xA;&lt;li&gt;SPAs&lt;/li&gt;&#xA;&lt;/ol&gt;" Type="String" />
+      <Value Key="Logo" Value="" Type="Hyperlink" />
+      <Value Key="Name" Value="2sxc" Type="String" />
+      <Value Key="Photos" Value="" Type="Hyperlink" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="6232004f-0938-45f2-bad8-956083392482">
+      <Value Key="ContentTypeStaticName" Value="" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="List" Type="String" />
+      <Value Key="Path" Value="_List.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="bd58ad20-b611-4f6c-a55c-555b72e687a3" KeyGuid="6ffa4682-ced2-48ef-aae7-a527ce94ad28">
+      <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
+      <Value Key="Grant" Value="$" Type="String" />
+      <Value Key="Identity" Value="" Type="String" />
+      <Value Key="Title" Value="allow schema read" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="0941fb14-6c59-4f08-8088-0459dce2cea6" KeyGuid="6ffa4682-ced2-48ef-aae7-a527ce94ad28">
+      <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
+      <Value Key="Grant" Value="č" Type="String" />
+      <Value Key="Identity" Value="" Type="String" />
+      <Value Key="Title" Value="allow create draft (only draft)" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="6ffa4682-ced2-48ef-aae7-a527ce94ad28" AttributeSetName="Partners" EntityGUID="fdd6b8dd-21d6-4388-963a-87087da28793">
+      <Value Key="CaseStudies" Value="" Type="Hyperlink" />
+      <Value Key="Description" Value="&lt;p&gt;This is the first demo with a public user uploading a logo&lt;/p&gt;" Type="String" />
+      <Value Key="Logo" Value="" Type="Hyperlink" />
+      <Value Key="Name" Value="Now public users can upload the images and case studies" Type="String" />
+      <Value Key="Photos" Value="" Type="Hyperlink" />
+    </Entity>
+  </Entities>
+  <PortalFiles>
+    <File Id="1232" RelativePath="adam\App Tutorial Public Forms\3bjW_dYhiEOWOocIfaKHkw\CaseStudies\544_d_hospita.pdf" />
+    <File Id="1228" RelativePath="adam\App Tutorial Public Forms\3bjW_dYhiEOWOocIfaKHkw\Logo\RejectedCrayons.JPG" />
+    <File Id="1230" RelativePath="adam\App Tutorial Public Forms\3bjW_dYhiEOWOocIfaKHkw\Photos\promaus_gr.jpg" />
+    <File Id="1231" RelativePath="adam\App Tutorial Public Forms\3bjW_dYhiEOWOocIfaKHkw\Photos\TechDays.jpg" />
+    <File Id="1224" RelativePath="adam\App Tutorial Public Forms\NADIwzMfpU6waLxWERN4Aw\CaseStudies\dummy case study - Blog _ 2sic internet solutions gmbh.pdf" />
+    <File Id="1223" RelativePath="adam\App Tutorial Public Forms\NADIwzMfpU6waLxWERN4Aw\CaseStudies\dummy case study 2sic Intranet Lösungen mit SharePoint erfolgreich umsetzen.pdf" />
+    <File Id="1221" RelativePath="adam\App Tutorial Public Forms\NADIwzMfpU6waLxWERN4Aw\Logo\2sic Logo magenta.jpg" />
+    <File Id="1222" RelativePath="adam\App Tutorial Public Forms\NADIwzMfpU6waLxWERN4Aw\Photos\guatemala_02.gif" />
+    <File Id="1226" RelativePath="adam\App Tutorial Public Forms\NhjZM2CTeUK2WOMxF6g_VA\Logo\2sxc9.png" />
+    <File Id="1227" RelativePath="adam\App Tutorial Public Forms\QAabq4TiFUCLApmoS4OKGQ\Logo\RejectedCrayons.JPG" />
+  </PortalFiles>
+  <PortalFolders>
+    <Folder Id="1818" RelativePath="adam/App Tutorial Public Forms/3bjW_dYhiEOWOocIfaKHkw/CaseStudies/" />
+    <Folder Id="1816" RelativePath="adam/App Tutorial Public Forms/3bjW_dYhiEOWOocIfaKHkw/Logo/" />
+    <Folder Id="1817" RelativePath="adam/App Tutorial Public Forms/3bjW_dYhiEOWOocIfaKHkw/Photos/" />
+    <Folder Id="1803" RelativePath="adam/App Tutorial Public Forms/NADIwzMfpU6waLxWERN4Aw/CaseStudies/" />
+    <Folder Id="1802" RelativePath="adam/App Tutorial Public Forms/NADIwzMfpU6waLxWERN4Aw/Logo/" />
+    <Folder Id="1804" RelativePath="adam/App Tutorial Public Forms/NADIwzMfpU6waLxWERN4Aw/Photos/" />
+    <Folder Id="1812" RelativePath="adam/App Tutorial Public Forms/NhjZM2CTeUK2WOMxF6g_VA/Logo/" />
+    <Folder Id="1814" RelativePath="adam/App Tutorial Public Forms/QAabq4TiFUCLApmoS4OKGQ/Logo/" />
+    <Folder Id="1793" RelativePath="adam/App Tutorial Public Forms/" />
+    <Folder Id="1794" RelativePath="adam/App Tutorial Public Forms/0N-vNuZL-k6ivRdZOwSNmQ/" />
+    <Folder Id="1795" RelativePath="adam/App Tutorial Public Forms/0N-vNuZL-k6ivRdZOwSNmQ/Logo/" />
+    <Folder Id="1796" RelativePath="adam/App Tutorial Public Forms/0N-vNuZL-k6ivRdZOwSNmQ/Photos/" />
+    <Folder Id="1815" RelativePath="adam/App Tutorial Public Forms/3bjW_dYhiEOWOocIfaKHkw/" />
+    <Folder Id="1798" RelativePath="adam/App Tutorial Public Forms/NADIwzMfpU6waLxWERN4Aw/" />
+    <Folder Id="1805" RelativePath="adam/App Tutorial Public Forms/NhjZM2CTeUK2WOMxF6g_VA/" />
+    <Folder Id="1810" RelativePath="adam/App Tutorial Public Forms/NhjZM2CTeUK2WOMxF6g_VA/CaseStudies/" />
+    <Folder Id="1811" RelativePath="adam/App Tutorial Public Forms/NhjZM2CTeUK2WOMxF6g_VA/Photos/" />
+    <Folder Id="1813" RelativePath="adam/App Tutorial Public Forms/QAabq4TiFUCLApmoS4OKGQ/" />
+  </PortalFolders>
+</SexyContent>

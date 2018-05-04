@@ -13,10 +13,12 @@
     var logos = AsAdam(partner, "Logo").Files;
     var logo = logos.Count > 0 ? logos[0] : null;
 
-  <tr>
+  <tr style='background: @(partner.IsPublished ? "" : "yellow")'>
     <td>@if(logo != null) { <img src="@logo.Url?w=100&h=100"> }</td>
-    <td><strong>@partner.Name</strong><br>
+    <td class="sc-element">
+      <strong>@partner.Name</strong><br>
       @Html.Raw(partner.Description)
+      @Edit.Toolbar(partner)
     </td>
     <td>
       @foreach(var pht in AsAdam(partner, "Photos").Files){
@@ -26,7 +28,8 @@
     <td>
       <ol>
         @foreach(var cs in AsAdam(partner, "CaseStudies").Files) {
-          <li><a href="@cs.Url" target="_blank">@cs.Name.Substring(0, 15)...</a></li>
+          var len = cs.Name.Length > 15 ? 15 : cs.Name.Length - 1;
+          <li><a href="@cs.Url" target="_blank">@cs.Name.Substring(0, len)...</a></li>
         }
       </ol>
     </td>
@@ -36,3 +39,18 @@
   </tr>
   }
 </table>
+
+<button type="button" onclick="addPartner(this)">Add your profile</button>
+
+<script>
+    // simple function to run the command and handle the returned promise
+    function addPartner(tag) {
+        $2sxc.cms.run(tag, "new", { contentType: "Partners"})
+            .then(function () {
+                alert("Thanks - we'll review your entry and publish it.")
+            });
+    }
+</script>
+
+@* enable the editing *@
+@Edit.Enable(api: true, forms: true, context: true, autoToolbar: false)
