@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.30.00" ExportDate="2018-05-04T15:05:18.6206662+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.30.00" ExportDate="2018-05-04T15:36:25.0354589+02:00">
   <Header>
     <App Guid="46d0210d-6bc0-4825-8ebf-06966b8eac2b" />
     <Language Default="en-US" />
@@ -51,9 +51,15 @@
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="3a7611b1-e568-4ed5-8fce-1fc27847557a" KeyNumber="2002">
             <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
-            <Value Key="Grant" Value="crud" Type="String" />
+            <Value Key="Grant" Value="č" Type="String" />
             <Value Key="Identity" Value="" Type="String" />
             <Value Key="Title" Value="public users can upload images" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="426ac506-bdc3-4ae3-9a65-78016b1e5ab6" KeyNumber="2002">
+            <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
+            <Value Key="Grant" Value="ř" Type="String" />
+            <Value Key="Identity" Value="" Type="String" />
+            <Value Key="Title" Value="public users can see the uploaded image" Type="String" />
           </Entity>
         </Attribute>
         <Attribute StaticName="Description" Type="String" IsTitle="false">
@@ -93,9 +99,15 @@
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="7114077f-f4cd-422f-a762-125c6888e287" KeyNumber="2004">
             <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
-            <Value Key="Grant" Value="crud" Type="String" />
+            <Value Key="Grant" Value="č" Type="String" />
             <Value Key="Identity" Value="" Type="String" />
             <Value Key="Title" Value="users can upload photo" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="b083011c-83f1-4fdb-9272-da0d7f4503f5" KeyNumber="2004">
+            <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
+            <Value Key="Grant" Value="ř" Type="String" />
+            <Value Key="Identity" Value="" Type="String" />
+            <Value Key="Title" Value="read uploaded photo" Type="String" />
           </Entity>
         </Attribute>
         <Attribute StaticName="CaseStudies" Type="Hyperlink" IsTitle="false">
@@ -128,9 +140,15 @@
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="f35fc33a-5176-45a1-a10b-6c15682d577e" KeyNumber="2005">
             <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
-            <Value Key="Grant" Value="crud" Type="String" />
+            <Value Key="Grant" Value="č" Type="String" />
             <Value Key="Identity" Value="" Type="String" />
             <Value Key="Title" Value="users can upload case studies" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="057485c2-fb27-4dae-a337-3996160f32f6" KeyNumber="2005">
+            <Value Key="Condition" Value="SecurityAccessLevel.View" Type="String" />
+            <Value Key="Grant" Value="ř" Type="String" />
+            <Value Key="Identity" Value="" Type="String" />
+            <Value Key="Title" Value="read" Type="String" />
           </Entity>
         </Attribute>
       </Attributes>
@@ -206,6 +224,7 @@
     <File Id="1228" RelativePath="adam\App Tutorial Public Forms\3bjW_dYhiEOWOocIfaKHkw\Logo\RejectedCrayons.JPG" />
     <File Id="1230" RelativePath="adam\App Tutorial Public Forms\3bjW_dYhiEOWOocIfaKHkw\Photos\promaus_gr.jpg" />
     <File Id="1231" RelativePath="adam\App Tutorial Public Forms\3bjW_dYhiEOWOocIfaKHkw\Photos\TechDays.jpg" />
+    <File Id="1233" RelativePath="adam\App Tutorial Public Forms\3sYVECa8hk6Kc9kWazq-hQ\Logo\_1_453c2b297679392189b7bb747de1f9a5.jpg" />
     <File Id="1224" RelativePath="adam\App Tutorial Public Forms\NADIwzMfpU6waLxWERN4Aw\CaseStudies\dummy case study - Blog _ 2sic internet solutions gmbh.pdf" />
     <File Id="1223" RelativePath="adam\App Tutorial Public Forms\NADIwzMfpU6waLxWERN4Aw\CaseStudies\dummy case study 2sic Intranet Lösungen mit SharePoint erfolgreich umsetzen.pdf" />
     <File Id="1221" RelativePath="adam\App Tutorial Public Forms\NADIwzMfpU6waLxWERN4Aw\Logo\2sic Logo magenta.jpg" />
@@ -217,6 +236,7 @@
     <Folder Id="1818" RelativePath="adam/App Tutorial Public Forms/3bjW_dYhiEOWOocIfaKHkw/CaseStudies/" />
     <Folder Id="1816" RelativePath="adam/App Tutorial Public Forms/3bjW_dYhiEOWOocIfaKHkw/Logo/" />
     <Folder Id="1817" RelativePath="adam/App Tutorial Public Forms/3bjW_dYhiEOWOocIfaKHkw/Photos/" />
+    <Folder Id="1825" RelativePath="adam/App Tutorial Public Forms/3sYVECa8hk6Kc9kWazq-hQ/Logo/" />
     <Folder Id="1803" RelativePath="adam/App Tutorial Public Forms/NADIwzMfpU6waLxWERN4Aw/CaseStudies/" />
     <Folder Id="1802" RelativePath="adam/App Tutorial Public Forms/NADIwzMfpU6waLxWERN4Aw/Logo/" />
     <Folder Id="1804" RelativePath="adam/App Tutorial Public Forms/NADIwzMfpU6waLxWERN4Aw/Photos/" />
@@ -227,6 +247,9 @@
     <Folder Id="1795" RelativePath="adam/App Tutorial Public Forms/0N-vNuZL-k6ivRdZOwSNmQ/Logo/" />
     <Folder Id="1796" RelativePath="adam/App Tutorial Public Forms/0N-vNuZL-k6ivRdZOwSNmQ/Photos/" />
     <Folder Id="1815" RelativePath="adam/App Tutorial Public Forms/3bjW_dYhiEOWOocIfaKHkw/" />
+    <Folder Id="1820" RelativePath="adam/App Tutorial Public Forms/3sYVECa8hk6Kc9kWazq-hQ/" />
+    <Folder Id="1826" RelativePath="adam/App Tutorial Public Forms/3sYVECa8hk6Kc9kWazq-hQ/CaseStudies/" />
+    <Folder Id="1823" RelativePath="adam/App Tutorial Public Forms/3sYVECa8hk6Kc9kWazq-hQ/Photos/" />
     <Folder Id="1798" RelativePath="adam/App Tutorial Public Forms/NADIwzMfpU6waLxWERN4Aw/" />
     <Folder Id="1805" RelativePath="adam/App Tutorial Public Forms/NhjZM2CTeUK2WOMxF6g_VA/" />
     <Folder Id="1810" RelativePath="adam/App Tutorial Public Forms/NhjZM2CTeUK2WOMxF6g_VA/CaseStudies/" />
