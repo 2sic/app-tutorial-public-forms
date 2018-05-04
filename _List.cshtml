@@ -1,0 +1,38 @@
+@using System.Linq
+<h1>Demo directory with public forms</h1>
+
+<h2>Partners</h2>
+<table>
+  <tr>
+    <th>Logo</th>
+    <th>Name &amp; Description</th>
+    <th>Photos</th>
+    <th>Showcases</th>
+  </tr>
+  @foreach(var partner in AsDynamic(App.Data["Partners"])) {
+    var logos = AsAdam(partner, "Logo").Files;
+    var logo = logos.Count > 0 ? logos[0] : null;
+
+  <tr>
+    <td>@if(logo != null) { <img src="@logo.Url?w=100&h=100"> }</td>
+    <td><strong>@partner.Name</strong><br>
+      @Html.Raw(partner.Description)
+    </td>
+    <td>
+      @foreach(var pht in AsAdam(partner, "Photos").Files){
+        <img src="@pht.Url?w=100&h=100">
+      }
+    </td>
+    <td>
+      <ol>
+        @foreach(var cs in AsAdam(partner, "CaseStudies").Files) {
+          <li><a href="@cs.Url" target="_blank">@cs.Name.Substring(0, 15)...</a></li>
+        }
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><hr></td>
+  </tr>
+  }
+</table>
